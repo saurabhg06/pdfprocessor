@@ -1,0 +1,242 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{letterspace}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\setlength{\spaceskip}{0.5em}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Saurabh Ghatule} \\ \vspace{4pt}
+    \small 9356351488 $|$ \href{mailto:ghatulesaurabh}{\underline{ghatulesaurabh@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/saurabh-ghatule-5126b0251/}{\underline{Linkedin}} $|$
+    \href{https://github.com/saurabhghatule}{\underline{Github}} $|$
+    \href{https://www.cloudskillsboost.google/public_profiles/8732b742-798f-4354-bec1-43840579a682 }{\underline{G SkillBoost}}$|$
+    \href{https://www.hackerrank.com/profile/ghatulesaurabh}{\underline{Hackerrank}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sveri's College of Engineering }
+      {Pandharpur}
+      {Btech in Computer Science And Engineering}{Dec 2021 - June 2025}
+    \resumeSubheading
+      {Rayat's Karmveer Bhavurao Patil Mahavidyalay }{Pandharpur}
+      {HSC}{June 2020 - June 2021}
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AI/ML Application Engineering Intern}{Jan 2024 - Present}
+      {TESLA CONSULTING ENGINEER}{}
+      \resumeItemListStart
+        \resumeItem{Developed AI-powered MEP calculator reducing calculation time from 15 days to 30 seconds}
+        \resumeItem{Created automation plugins decreasing BIM modeling time by 90\% across projects}
+        \resumeItem{Implemented ML models and NLP interface with 98\% accuracy for MEP calculations}
+        \resumeItemListEnd   \resumeSubheading
+      {Intern}{Nov 2022 - Jan 2023}
+      {Softtech Coders}{Pandharpur}
+      \resumeItemListStart
+        \resumeItem{Gain practical exp in designing and developing UI/UX for web and app using HTML, CSS, and JavaScript.}
+        \resumeItem{Collaborate with teams to implement design prototypes and enhance user interface.}  
+      \resumeItemListEnd
+          
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AI Result Analyzer} $|$ \emph{Python, Flask, HTML/CSS/JS, Gemini API}}{Jan 2024 - Present}
+          \resumeItemListStart
+            \resumeItem{Developed AI-powered PDF result analyzer converting 500+ results to Excel with 99\% accuracy, reducing 10-day process to 30 seconds}
+            \resumeItem{Built Flask web app with Gemini API integration processing 100+ concurrent users and handling 50,000+ student records}
+            \resumeItem{Automated generation of 25+ KPIs for department heads with 95\% query accuracy}\resumeItemListEnd
+
+      % ... existing Modern Shetkari project ...
+      % ... rest of existing projects ...
+    %  \resumeProjectHeading
+         % {\textbf{Edoc Appointment Booking} \href{https://github.com/saurabhghatule/Doctor-appointment-booking.git}{} $|$  \emph{Html , Css , Php , Sql}}{Nov 2022 - Jan 2023}
+         % \resumeItemListStart
+           % \resumeItem{Developed using HTML, CSS, and PHP for frontend and backend functionality.}
+           % \resumeItem{Enabled booking appointments, viewing schedules, and managing patient records securely.}
+
+        %  \resumeItemListEnd    
+      % \resumeProjectHeading
+      %     {\textbf{Covid Impact on Trade} $|$ \emph{Python, Pandas , Matplotlib}}{March 2023 - April 2023}
+      %     \resumeItemListStart
+      %       \resumeItem{Visualized the increasing trade value over the years 2019, 2020, and 2021.}
+      %       \resumeItem{Compared the cumulative exports and imports over the mentioned years.}
+      %     \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Student Placement Analysis} $|$ \emph{Python, Machine Learning}}{July 2024 - Present}
+          \resumeItemListStart
+            \resumeItem{Analyzed students' academic performance, technical skills, resumes, and certifications.}
+            \resumeItem{Predicted placement success using historical data.}
+            \resumeItem{Provided actionable advice to enhance student placement prospects.}
+          \resumeItemListEnd
+     \resumeSubHeadingListEnd
+  
+
+%\section{Technical Skills}
+\section{Certification}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+     \textbf{Google: }{Google cloud skill boost  } }\hspace{} \\[0.5mm]
+    \textbf{Udemy}{The complet salesforce devlopment} \\[0.5mm]
+    
+ \end{itemize}
+
+%---CERTIFICATION
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, SQL, HTML/CSS,Java,JS,GO,R} \\[0.5mm]
+     \textbf{Frameworks}{: Bootstrap , Selenium,Flask ,Django} \\[0.5mm]
+     \textbf{Developer Tools}{: Prompt Engineering, Git, Github,VS code ,JENKINs,Docker,linux} \\[0.5mm]
+    }}
+ \end{itemize}
+
+\section*{Courses Taken}
+     \textbf{Computer Network.}
+     \textbf{Data Structures and Algorithms.}
+     \textbf{Operating Systems.}
+     \textbf{Database Management.}
+     \textbf{Compiler Design.}
+     \textbf{Computer Architecture and Organisation.}
+     \textbf{Theory of Computation}
+     
+     
+     
+
+
+%-------------------------------------------
+\end{document}

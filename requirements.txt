@@ -1,0 +1,29 @@
+# Web Framework
+Flask
+Werkzeug
+Flask-Cors
+
+# Database
+Flask-SQLAlchemy
+Flask-Migrate
+
+# PDF and Excel Processing
+pdfplumber
+openpyxl
+
+# Data Processing
+pandas
+numpy
+
+# Testing
+Flask-Testing
+pytest
+
+# Environment and Config
+python-dotenv
+
+# Security
+PyJWT==2.8.0
+
+# AI and Machine Learning
+google-generativeai==0.3.1
